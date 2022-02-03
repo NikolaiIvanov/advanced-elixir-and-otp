@@ -5,8 +5,7 @@
   
 #
 ## 2 Polymorphysm with Protocols
-+ [ ] **Defining Protocols**
-+ [ ] **Implementong Protocols**
++ [x] **[Defining Protocols](2_polymorphism_with_protocols/2_1_definig_protocols.md**
 
 #
 ## 3 Processes
