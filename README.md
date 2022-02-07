@@ -9,8 +9,8 @@
 
 #
 ## 3 Processes
-+ [ ] **Launching and Linking**
-+ [ ] **Messaging**
++ [x] **[Launching and Linking](3_processes/3_1_processes_launching.md)**
++ [x] **[Messaging](3_processes/3_2_process_messaging.md)**
 
 #
 ## 4 Data Stores
