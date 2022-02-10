@@ -45,8 +45,8 @@ defimpl Inspectable, for: Integer  do
   def dump(integer), do: Integer
 end
 
-iex> Inspectable.dump(1)       
-"INTEGER: 1"
+iex> Inspectable.typeof(1)
+Integer
 
 iex> Inspectable.typeof(0)
 "ZERO!"
