@@ -19,8 +19,8 @@
 
 #
 ## 5 Metaprogramming
-+ [ ] **Quote and Unquote**
-+ [ ] **Macros**
++ [x] **[Quote and Unquote](5_metaprogramming/5_1_quote_and_unquote.md)**
++ [x] **[Macros](5_metaprogramming/5_2_macros.md)**
 
 #
 ## 6 OTP
