@@ -24,9 +24,9 @@
 
 #
 ## 6 OTP
-+ [ ] **What is OTP**
-+ [ ] **OTP Feature Set - GenServer**
-+ [ ] **Application**
++ [x] **[OTP](6_otp/6_1_otp.md)**
++ [x] **[OTP Feature Set - GenServer](6_otp/6_2_genserver.md)**
++ [x] **[Application](6_otp/6_3_application.md)**
 
 #
 ## 7 Supervisors
