@@ -14,8 +14,8 @@
 
 #
 ## 4 Data Stores
-+ [ ] **ETS**
-+ [ ] **DETS and Mnesia**
++ [x] **[ETS](4_data_stores/4_1_ets.md)**
++ [x] **[DETS and Mnesia](4_data_stores/4_2_dets_and_mnesia.md)**
 
 #
 ## 5 Metaprogramming
