@@ -32,31 +32,27 @@ Define a Protocol - Inspectable - that exposes a dump function for logging type 
 
 ```elixir
 defprotocol Inspectable do
-  def dump(element)
+  def typeof(element)
 end
 
 defimpl Inspectable, for: BitString  do
-  def dump(string) do
-    "STRING: #{string}"
-  end
+  def typeof(string), do: String
 end
 
 defimpl Inspectable, for: Integer  do
-  def dump(0), do: "ZERO!"
+  def typeof(0), do: "ZERO!"
 
-  def dump(integer) do
-    "INTEGER: #{integer}"
-  end
+  def dump(integer), do: Integer
 end
 
 iex> Inspectable.dump(1)       
 "INTEGER: 1"
 
-iex> Inspectable.dump(0)
+iex> Inspectable.typeof(0)
 "ZERO!"
 
-iex> Inspectable.dump("String")
-"STRING: String"
+iex> Inspectable.typeof("Hello")
+String
 ```
 #
 ## Any
@@ -77,17 +73,13 @@ defprotocol Inspectable do
 end
 
 defimpl Inspectable, for: BitString  do
-  def typeof(string) do
-    "STRING: #{string}"
-  end
+  def typeof(string), do: String
 end
 
 defimpl Inspectable, for: Integer  do
   def typeof(0), do: "ZERO!"
 
-  def typeof(integer) do
-    "INTEGER: #{integer}"
-  end
+  def typeof(integer), do: Integer
 end
 
 defimpl Inspectable, for: Any  do
